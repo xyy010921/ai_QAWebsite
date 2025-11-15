@@ -1,0 +1,9 @@
+{
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnSave": true,
+  "editor.fontSize": 16,
+  "editor.fontFamily": "Fira Code Regular, 'Courier New', monospace",
+  "terminal.integrated.fontFamily": "Fira Code Regular, 'Courier New', monospace",
+  "terminal.integrated.fontSize": 17,
+  "terminal.integrated.defaultProfile.windows": "Command Prompt"
+}
