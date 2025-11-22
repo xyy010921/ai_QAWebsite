@@ -1,7 +1,13 @@
 import ChatComponent from "./components/ChatComponent";
+import PdfUploader from "./components/PdfUploader";
 
 function App() {
-  return <ChatComponent />;
+  return (
+    <div>
+      <PdfUploader />
+      <ChatComponent />;
+    </div>
+  );
 }
 
 export default App;
