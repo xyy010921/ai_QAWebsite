@@ -26,10 +26,10 @@ const uploadToBackend = async (file) => {
 const attributes = {
   name: "file",
   multiple: true,
-  cutomeRequest: async ({ file, onSuccsee, onError }) => {
+  customRequest: async ({ file, onSuccess, onError }) => {
     const response = await uploadToBackend(file);
     if (response && response.status === 200) {
-      onSuccsee(response.data);
+      onSuccess(response.data);
     } else {
       onError(new Error("Upload failed"));
     }

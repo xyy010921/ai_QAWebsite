@@ -25,6 +25,7 @@ const ChatComponent = (props) => {
           question,
         },
       });
+      handleResp(question, response.data);
     } catch (error) {
       console.error(`Error: ${error}`);
       handleResp(question, error);
